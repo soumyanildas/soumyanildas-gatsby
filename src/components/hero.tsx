@@ -1,3 +1,4 @@
+import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 
 const Hero = () => {
@@ -9,7 +10,7 @@ const Hero = () => {
         <p className="max-w-3xl font-light text-xl lg:text-3xl tracking-tight">A <span className="text-alizarin font-semibold">Calcutta</span> based Software Engineer, Frontend Developer and Air Guitarist</p>
       </div>
       <div className="mt-16 flex justify-center lg:mx-auto">
-        <img height="300" width="300" src="images/hero-das.svg" alt="hero-das" />
+        <StaticImage height={300} width={300} src="../images/hero-das.svg" alt="hero-das" />
       </div>
     </div>
   );
