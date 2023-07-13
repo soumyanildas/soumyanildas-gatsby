@@ -8,23 +8,23 @@ module.exports = {
     extend: {
       colors: {
         alizarin: '#e22443',
-        turquoise: '#24E2C3'
+        turquoise: '#40e0d0'
       },
       outlineColor: {
         alizarin: '#e22443',
-        turquoise: '#24E2C3'
+        turquoise: '#40e0d0'
       },
       backgroundColor: {
         alizarin: '#e22443',
-        turquoise: '#24E2C3'
+        turquoise: '#40e0d0'
       },
       borderColor: {
         alizarin: '#e22443',
-        turquoise: '#24E2C3'
+        turquoise: '#40e0d0'
       },
       fill: {
         alizarin: '#e22443',
-        turquoise: '#24E2C3'
+        turquoise: '#40e0d0'
       }
     },
   },
