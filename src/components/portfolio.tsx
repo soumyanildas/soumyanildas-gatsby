@@ -25,14 +25,14 @@ const Portfolio = () => {
       title: 'Netskope'
     },
     {
-      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254281/basketball-plus.png',
+      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254280/casino-guide.png',
       imageWidth: 120,
       title: 'Casino Guide',
       website: 'casino-guide.com',
       websiteLink: 'https://casino-guide.com'
     },
     {
-      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254280/casino-guide.png',
+      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254281/basketball-plus.png',
       imageWidth: 180,
       title: 'Basketball Plus',
     },
