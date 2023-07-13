@@ -24,4 +24,9 @@ const NotFoundPage: React.FC<PageProps> = () => {
 
 export default NotFoundPage
 
-export const Head: HeadFC = () => <title>Not found | Soumyanil Das</title>
+export const Head: HeadFC = () => (
+  <>
+    <title>Not found | Soumyanil Das</title>
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+  </>
+)

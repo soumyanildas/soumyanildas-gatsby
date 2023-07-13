@@ -28,7 +28,6 @@ export const Head: HeadFC = () => (
   <>
     <title>Soumyanil Das | Frontend Developer</title>
     <meta name="description" content="Soumyanil Das, primarily a Front End Developer from Calcutta" />
-    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Soumyanil Das | Frontend Developer" />
     <meta name="twitter:description" content="Soumyanil Das, primarily a Front End Developer from Calcutta" />
     <meta property="og:type" content="website" />
@@ -36,6 +35,6 @@ export const Head: HeadFC = () => (
     <meta property="og:description" content="Soumyanil Das, primarily a Front End Developer from Calcutta" />
     <meta property="og:url" content="https://www.soumyanildas.com/" />
     <meta property="og:site_name" content="Soumyanil Das | Front End Developer" />
-    <link rel="icon" href="https://res.cloudinary.com/soumyanil/image/upload/v1689254280/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
   </>
 )
