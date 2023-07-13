@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
 
-  const [welcomeMessage, setWelcomeMessage] = React.useState('');
+  const [welcomeMessage, setWelcomeMessage] = React.useState('Hello');
   
   React.useEffect(() => {
     generateGreetings();
