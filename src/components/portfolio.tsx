@@ -6,43 +6,43 @@ const Portfolio = () => {
 
   const portfolios: IPortfolioCard[] = [
     {
-      image: '/images/sraps.png',
+      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254282/sraps.png',
       imageWidth: 100,
       title: 'SRAPS',
       website: 'sraps.ch',
       websiteLink: 'https://sraps.ch'
     },
     {
-      image: '/images/mike-masse.png',
+      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254282/mike-masse.png',
       imageWidth: 180,
       title: 'Mike Masse',
       website: 'mikemasse.com',
       websiteLink: 'https://mikemasse.com'
     },
     {
-      image: '/images/netskope.svg',
+      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254281/netskope.svg',
       imageWidth: 180,
       title: 'Netskope'
     },
     {
-      image: '/images/casino-guide.png',
+      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254281/basketball-plus.png',
       imageWidth: 120,
       title: 'Casino Guide',
       website: 'casino-guide.com',
       websiteLink: 'https://casino-guide.com'
     },
     {
-      image: '/images/basketball-plus.png',
+      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254281/basketball-plus.png',
       imageWidth: 180,
       title: 'Basketball Plus',
     },
     {
-      image: '/images/zethion.png',
+      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254282/zethion.png',
       imageWidth: 150,
       title: 'Zethion',
     },
     {
-      image: '/images/clusterp.png',
+      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254281/clusterp.png',
       imageWidth: 200,
       title: 'Clusterp',
     },
