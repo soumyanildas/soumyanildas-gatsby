@@ -19,7 +19,7 @@ const NotFoundPage: React.FC<PageProps> = () => {
         </div>
         <h3 className="text-center text-4xl mt-5 font-bold tracking-tight">Oops you are in the wrong place.</h3>
         <h3 className="text-center text-2xl mt-5 font-light tracking-tight">Maybe try a different page?</h3>
-        <Link to="/" className="text-center mt-10 rounded-full outline outline-2 outline-alizarin py-3 px-16 text-alizarin transition-colors duration-300 ease-in-out hover:bg-alizarin hover:text-white">Return Home</Link>
+        <Link to="/" className="text-center mt-5 rounded-full border-2 border-alizarin py-3 px-16 text-alizarin transition-colors duration-300 ease-in-out hover:bg-alizarin hover:text-white">Return Home</Link>
 
       </div>
     </main>
