@@ -6,7 +6,11 @@ import Footer from '../components/footer';
 const NotFoundPage: React.FC<PageProps> = () => {
   return (
     <main className="h-screen">
-      <Header />
+      <Header >
+        <ul className="flex justify-between items-center">
+          <li className="mr-4 hover:text-alizarin"><a href="/downloads/Resume-Soumyanil-Das.pdf" download>Resume</a></li>
+        </ul>
+      </Header>
       <div className="container mx-auto h-3/4 flex flex-col justify-center items-center px-4 xl:px-0">
         <div className="text-8xl fill-alizarin">
           <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">

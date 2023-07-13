@@ -7,11 +7,17 @@ import Experience from '../components/experience';
 import Portfolio from '../components/portfolio';
 import Contact from '../components/contact';
 import Footer from '../components/footer';
+import scrollTo from 'gatsby-plugin-smoothscroll';
 
 const Home: React.FC<PageProps> = () => {
   return (
     <main className="h-screen">
-      <Header />
+      <Header >
+        <ul className="flex justify-between items-center">
+          <li className="mr-4 hover:text-alizarin"><a href="/downloads/Resume-Soumyanil-Das.pdf" download>Resume</a></li>
+          <li><button onClick={() => scrollTo('#contact-us')} className="rounded-full outline outline-2 outline-alizarin py-2 px-6 text-alizarin transition-colors duration-300 ease-in-out hover:bg-alizarin hover:text-white">Say Hello</button></li>
+        </ul>
+      </Header>
       <Hero />
       <About />
       <Experience />
