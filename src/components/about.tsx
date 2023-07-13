@@ -21,7 +21,7 @@ const About = () => {
       title: 'HTML5'
     },
     {
-      image: '/images/icons/SASS.svg',
+      image: '/images/icons/sass.svg',
       title: 'SASS'
     },
     {
