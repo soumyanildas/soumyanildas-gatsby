@@ -5,39 +5,39 @@ const About = () => {
 
   const technologies = [
     {
-      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254382/icons/angular.svg',
+      image: '/images/icons/angular.svg',
       title: 'Angular'
     },
     {
-      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254382/icons/javascript.svg',
+      image: '/images/icons/javascript.svg',
       title: 'Javascript'
     },
     {
-      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254384/icons/typescript.svg',
+      image: '/images/icons/typescript.svg',
       title: 'Typescript'
     },
     {
-      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254382/icons/html5.svg',
+      image: '/images/icons/html5.svg',
       title: 'HTML5'
     },
     {
-      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254382/icons/sass.svg',
+      image: '/images/icons/SASS.svg',
       title: 'SASS'
     },
     {
-      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254382/icons/firebase.svg',
+      image: '/images/icons/firebase.svg',
       title: 'Firebase'
     },
     {
-      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254384/icons/vuejs.svg',
+      image: '/images/icons/vuejs.svg',
       title: 'VueJS'
     },
     {
-      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254384/icons/tailwind.svg',
+      image: '/images/icons/tailwind.svg',
       title: 'Tailwind'
     },
     {
-      image: 'https://res.cloudinary.com/soumyanil/image/upload/v1689254382/icons/ngrx.svg',
+      image: '/images/icons/ngrx.svg',
       title: 'NgRx'
     },
   ];
