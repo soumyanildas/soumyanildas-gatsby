@@ -4,7 +4,7 @@ const PortfolioCard = (props: IPortfolioCard) => {
   return (
     <>
       <div className="rounded bg-slate-300 p-4 h-40 flex justify-center items-center">
-        <img src={props.image} width={props.imageWidth} />
+        <img src={props.image} width={props.imageWidth} alt={props.title} />
       </div>
       <div className="ml-2 mt-4">
         <div className="font-bold text-lg tracking-tight">{props.title}</div>

@@ -34,19 +34,19 @@ const Contact = () => {
           {state.succeeded ? <div className="mb-4 font-light tracking-tight text-center">Your email has been sent successfully!</div> : null}
           <div className="w-full lg:flex">
             <div className="mb-2 lg:w-1/2 lg:mr-4">
-              <label className="text-slate-400 tracking-tight">Name</label>
-              <input type="text" required className="w-full outline-none border border-gray-200 h-12 p-4 rounded mt-2 text-lg" name="name" />
+              <label className="text-slate-400 tracking-tight" htmlFor="name">Name</label>
+              <input type="text" required className="w-full outline-none border border-gray-200 h-12 p-4 rounded mt-2 text-lg" name="name" aria-label="name"/>
               <ValidationError className="mt-1 text-sm font-light text-rose-600" field="name" prefix="Name" errors={state.errors} />
             </div>
             <div className="mb-2 lg:w-1/2">
-              <label className="text-slate-400 tracking-tight">Email</label>
-              <input type="email" required className="w-full outline-none border border-gray-200 h-12 p-4 rounded mt-2 text-lg" name="email" />
+              <label className="text-slate-400 tracking-tight" htmlFor="email">Email</label>
+              <input type="email" required className="w-full outline-none border border-gray-200 h-12 p-4 rounded mt-2 text-lg" name="email" aria-label="email"/>
               <ValidationError className="mt-1 text-sm font-light text-rose-600" field="email" prefix="Email" errors={state.errors} />
             </div>
           </div>
           <div className="lg:w-full lg:mt-5">
-            <label className="text-slate-400 tracking-tight">Message</label>
-            <textarea required className="w-full outline-none border border-gray-200 h-60 p-4 rounded mt-2 text-lg" name="message" />
+            <label className="text-slate-400 tracking-tight" htmlFor="message">Message</label>
+            <textarea required className="w-full outline-none border border-gray-200 h-60 p-4 rounded mt-2 text-lg" name="message" aria-label="message"/>
             <ValidationError className="mt-1 text-sm font-light text-rose-600" field="message" prefix="Message" errors={state.errors} />
           </div>
           <button disabled={state.submitting} type="submit" className="w-1/2 mx-auto mt-10 rounded-full outline outline-2 outline-alizarin py-3 px-16 text-alizarin transition-colors duration-300 ease-in-out lg:w-1/4 hover:bg-alizarin hover:text-white">
