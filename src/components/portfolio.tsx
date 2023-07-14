@@ -28,8 +28,8 @@ const Portfolio = () => {
       image: '/images/casino-guide.png',
       imageWidth: 120,
       title: 'Casino Guide',
-      website: 'casino-guide.com',
-      websiteLink: 'https://casino-guide.com'
+      website: 'casinoguide.com',
+      websiteLink: 'https://casinoguide.com'
     },
     {
       image: '/images/basketball-plus.png',
