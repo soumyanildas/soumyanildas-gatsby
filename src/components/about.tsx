@@ -52,7 +52,7 @@ const About = () => {
       </div>
       <div className="col-span-12 mt-20 flex flex-wrap justify-center items-center xl:col-span-6 xl:mt-0 xl:flex-nowrap xl:justify-between">
         {technologies.map((technology, index) => (
-          <div key={`${id}-${index}`} className="mr-5 xl:mr-0"><img src={technology.image} alt={technology.title} title={technology.title} width="48" height="48" /></div>
+          <div key={`${id}-${index}`} className="mr-5 mb-5 xl:mr-0"><img src={technology.image} alt={technology.title} title={technology.title} width="48" height="48" /></div>
         ))}
       </div>
     </div>
