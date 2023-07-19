@@ -13,13 +13,6 @@ const Portfolio = () => {
       websiteLink: 'https://sraps.ch'
     },
     {
-      image: '/images/mike-masse.png',
-      imageWidth: 180,
-      title: 'Mike Masse',
-      website: 'mikemasse.com',
-      websiteLink: 'https://mikemasse.com'
-    },
-    {
       image: '/images/netskope.svg',
       imageWidth: 180,
       title: 'Netskope'
@@ -30,6 +23,13 @@ const Portfolio = () => {
       title: 'Casino Guide',
       website: 'casinoguide.com',
       websiteLink: 'https://casinoguide.com'
+    },
+    {
+      image: '/images/mike-masse.png',
+      imageWidth: 180,
+      title: 'Mike Masse',
+      website: 'mikemasse.com',
+      websiteLink: 'https://mikemasse.com'
     },
     {
       image: '/images/basketball-plus.png',
