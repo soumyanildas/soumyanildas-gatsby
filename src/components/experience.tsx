@@ -46,7 +46,7 @@ const Experience = () => {
 
   return (
     <section className="experience">
-      <div className="bg-alizarin">
+      <div className="bg-cyan-700">
         <div className="container mx-auto px-4 py-20 xl:py-28 xl:px-0">
           <div className="text-center mb-10">
             <h3 className="text-white text-3xl tracking-tight font-bold mb-4">Experience</h3>

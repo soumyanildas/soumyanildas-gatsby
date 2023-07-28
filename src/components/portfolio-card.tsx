@@ -8,7 +8,7 @@ const PortfolioCard = (props: IPortfolioCard) => {
       </div>
       <div className="ml-2 mt-4">
         <div className="font-bold text-lg tracking-tight">{props.title}</div>
-        {props.website ? <a className="text-alizarin tracking-tight" href={props.websiteLink} rel="nofollow" target="_blank">{props.website}</a> : null}
+        {props.website ? <a className="text-cyan-700 tracking-tight" href={props.websiteLink} rel="nofollow" target="_blank">{props.website}</a> : null}
       </div>
     </>
 
