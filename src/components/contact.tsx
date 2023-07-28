@@ -45,7 +45,7 @@ const Contact = () => {
                 <ValidationError className="mt-1 text-sm font-light text-rose-600" field="email" prefix="Email" errors={state.errors} />
               </div>
             </div>
-            <div className="lg:w-full lg:mt-5">
+            <div className="lg:w-full">
               <label className="text-slate-400 tracking-tight" htmlFor="message">Message</label>
               <textarea required className="w-full outline-none border border-gray-200 text-cyan-700 h-60 p-4 rounded mt-2 text-lg" name="message" aria-label="message" />
               <ValidationError className="mt-1 text-sm font-light text-rose-600" field="message" prefix="Message" errors={state.errors} />
