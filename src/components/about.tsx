@@ -43,7 +43,7 @@ const About = () => {
   ];
 
   return (
-    <section className="about">
+    <section className="about selection:bg-cyan-700 selection:text-white">
       <div className="container mx-auto px-4 py-20 lg:grid-cols-12 lg:gap-x-12 xl:py-40 grid xl:px-0 ">
         <div className="col-span-12 text-center mb-10">
           <h3 className="text-3xl tracking-tight font-bold">About Me</h3>

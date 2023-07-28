@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = () => {
 
   return (
-    <section className="hero">
+    <section className="hero selection:bg-cyan-700 selection:text-white">
       <div className="container mx-auto px-4 lg:gap-8 xl:gap-0 xl:px-0 lg:py-16 lg:flex lg:justify-between lg:items-center">
         <div className="mt-16 text-center lg:text-left">
           <h3 className="max-w-3xl font-extrabold mb-4 text-5xl lg:text-7xl tracking-tight">Hello, I'm <span className="text-cyan-700">Soumyanil</span></h3>

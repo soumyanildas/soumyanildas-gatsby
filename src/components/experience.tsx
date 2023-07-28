@@ -45,7 +45,7 @@ const Experience = () => {
   ];
 
   return (
-    <section className="experience">
+    <section className="experience selection:bg-white selection:text-cyan-700">
       <div className="bg-cyan-700">
         <div className="container mx-auto px-4 py-20 xl:py-28 xl:px-0">
           <div className="text-center mb-10">
