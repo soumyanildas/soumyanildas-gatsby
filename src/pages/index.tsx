@@ -32,15 +32,15 @@ export default Home;
 
 export const Head: HeadFC = () => (
   <>
-    <title>Soumyanil Das | Frontend Developer</title>
-    <meta name="description" content="Soumyanil Das, primarily a Front End Developer from Calcutta" />
-    <meta name="twitter:title" content="Soumyanil Das | Frontend Developer" />
-    <meta name="twitter:description" content="Soumyanil Das, primarily a Front End Developer from Calcutta" />
+    <title>Soumyanil Das | Front-end Developer</title>
+    <meta name="description" content="Soumyanil Das, primarily a Front-end Developer from Calcutta" />
+    <meta name="twitter:title" content="Soumyanil Das | Front-end Developer" />
+    <meta name="twitter:description" content="Soumyanil Das, primarily a Front-end Developer from Calcutta" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Soumyanil Das | Front End Developer" />
-    <meta property="og:description" content="Soumyanil Das, primarily a Front End Developer from Calcutta" />
+    <meta property="og:title" content="Soumyanil Das | Front-end Developer" />
+    <meta property="og:description" content="Soumyanil Das, primarily a Front-end Developer from Calcutta" />
     <meta property="og:url" content="https://www.soumyanildas.com/" />
-    <meta property="og:site_name" content="Soumyanil Das | Front End Developer" />
+    <meta property="og:site_name" content="Soumyanil Das | Front-end Developer" />
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
   </>
 )
