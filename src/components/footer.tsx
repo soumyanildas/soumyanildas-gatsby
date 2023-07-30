@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="selection:bg-white selection:text-cyan-700">
-          <h3 className="text-center text-5xl text-white font-bold mb-2 mt-64 md:mt-48 xl:mt-24">sd.</h3>
+          <img className="mx-auto mb-2 mt-64 md:mt-48 xl:mt-24" height="70" width="70" src="/images/logo-white.svg" alt="logo-white" />
           <p className="text-center text-xl text-white font-light mb-14 tracking-tight">Making the web a more creative place.</p>
           <div className="w-44 mx-auto flex justify-between items-center mb-14">
             { /* Email */}
