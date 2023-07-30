@@ -40,7 +40,8 @@ const Footer = () => {
               </svg>
             </a>
           </div>
-          <div className="text-center text-white text-sm tracking-tight mb-5">Copyright &copy; {new Date().getFullYear()} Soumyanil Das</div>
+          <div className="text-center text-white text-sm tracking-tight mb-3">&copy; {new Date().getFullYear()} Soumyanil Das</div>
+          <div className="text-center text-white text-sm tracking-tight mb-5">Built with <a className="underline" href="https://www.gatsbyjs.com/" target="_blank" rel="nofollow">Gatsby</a></div>
         </div>
       </div>
     </footer>
