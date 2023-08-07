@@ -35,11 +35,7 @@ const About = () => {
     {
       image: '/images/icons/tailwind.svg',
       title: 'Tailwind'
-    },
-    {
-      image: '/images/icons/ngrx.svg',
-      title: 'NgRx'
-    },
+    }
   ];
 
   return (
