@@ -50,7 +50,7 @@ const Experience = () => {
         <div className="container mx-auto px-4 py-20 xl:py-28 xl:px-0">
           <div className="text-center mb-10">
             <h3 className="text-white text-3xl tracking-tight font-bold mb-4">Experience</h3>
-            <p className="text-white tracking-tight leading-relaxed text-md mb-10">Here are some of my experiences over the last {currentExperience} years</p>
+            <p className="text-white tracking-tight leading-relaxed mb-10">Here are some of my experiences over the last {currentExperience} years</p>
           </div>
           <ol className="mt-16 border-l border-white md:flex md:justify-center md:gap-6 md:border-l-0 md:border-t">
 
