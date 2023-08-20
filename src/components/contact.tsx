@@ -17,7 +17,7 @@ const Contact = () => {
       name,
       email,
       message
-    }).then((response) => {
+    }).then((response: any) => {
       if (response.response?.ok) {
         form.reset();
       }
