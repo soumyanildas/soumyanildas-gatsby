@@ -8,6 +8,7 @@ import Portfolio from '../components/portfolio';
 import Contact from '../components/contact';
 import Footer from '../components/footer';
 import scrollTo from 'gatsby-plugin-smoothscroll';
+import Testimonial from '../components/testimonial';
 
 const Home: React.FC<PageProps> = () => {
   return (
@@ -22,6 +23,7 @@ const Home: React.FC<PageProps> = () => {
       <About />
       <Experience />
       <Portfolio />
+      <Testimonial />
       <Contact />
       <Footer />
     </main>
