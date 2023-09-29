@@ -8,6 +8,9 @@ const PortfolioCard = (props: IPortfolioCard) => {
       </div>
       <div className="ml-2 mt-4">
         <div className="font-bold text-lg tracking-tight">{props.title}</div>
+        <ul className="flex flex-wrap">
+          { props.techStacks.map((techStack) => <li className="mr-2 my-1 text-xs border border-cyan-700 rounded px-2 py-1 text-cyan-700 cursor-pointer hover:bg-cyan-700 hover:text-white">{ techStack }</li>)}
+        </ul>
         {props.website ? <a className="text-cyan-700 tracking-tight" href={props.websiteLink} rel="nofollow" target="_blank">{props.website}</a> : null}
       </div>
     </>
@@ -23,4 +26,5 @@ export interface IPortfolioCard {
   title: string;
   website?: string;
   websiteLink?: string;
+  techStacks: string[];
 }

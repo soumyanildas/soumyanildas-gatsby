@@ -10,41 +10,48 @@ const Portfolio = () => {
       imageWidth: 100,
       title: 'SRAPS',
       website: 'sraps.ch',
-      websiteLink: 'https://sraps.ch'
+      websiteLink: 'https://sraps.ch',
+      techStacks: ['Angular', 'HTML5', 'SCSS', 'Firebase', 'NestJS', 'Stripe']
     },
     {
       image: '/images/netskope.svg',
       imageWidth: 180,
-      title: 'Netskope'
+      title: 'Netskope',
+      techStacks: ['Angular', 'HTML5', 'Less', 'PHP', 'Codeigniter', 'MariaDB']
     },
     {
       image: '/images/casino-guide.png',
       imageWidth: 120,
       title: 'Casino Guide',
       website: 'casinoguide.com',
-      websiteLink: 'https://casinoguide.com'
+      websiteLink: 'https://casinoguide.com',
+      techStacks: ['Vue', 'Vuex', 'HTML5', 'Less', 'Ionic']
     },
     {
       image: '/images/mike-masse.png',
       imageWidth: 180,
       title: 'Mike Masse',
       website: 'mikemasse.com',
-      websiteLink: 'https://mikemasse.com'
-    },
-    {
-      image: '/images/basketball-plus.png',
-      imageWidth: 180,
-      title: 'Basketball Plus',
+      websiteLink: 'https://mikemasse.com',
+      techStacks: ['Wordpress', 'HTML5', 'CSS']
     },
     {
       image: '/images/zethion.png',
       imageWidth: 150,
       title: 'Zethion',
+      techStacks: ['Angular', 'HTML5', 'SCSS']
+    },
+    {
+      image: '/images/basketball-plus.png',
+      imageWidth: 180,
+      title: 'Basketball Plus',
+      techStacks: ['Vue', 'HTML5', 'SCSS', 'Ghost']
     },
     {
       image: '/images/clusterp.png',
       imageWidth: 200,
       title: 'Clusterp',
+      techStacks: ['Angular', 'HTML5', 'SCSS']
     },
   ]
 
@@ -58,7 +65,7 @@ const Portfolio = () => {
         <div className="grid gap-12 lg:grid-cols-12">
           {portfolios.map((portfolio: IPortfolioCard, index) => (
             <div key={`${id}-${index}`} className="lg:col-span-4 xl:col-span-3">
-              <PortfolioCard image={portfolio.image} imageWidth={portfolio.imageWidth} title={portfolio.title} website={portfolio.website} websiteLink={portfolio.websiteLink} />
+              <PortfolioCard image={portfolio.image} imageWidth={portfolio.imageWidth} title={portfolio.title} website={portfolio.website} websiteLink={portfolio.websiteLink} techStacks={portfolio.techStacks} />
             </div>
           ))}
         </div>
