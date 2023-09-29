@@ -17,7 +17,7 @@ const Portfolio = () => {
       image: '/images/netskope.svg',
       imageWidth: 180,
       title: 'Netskope',
-      techStacks: ['Angular', 'HTML5', 'Less', 'PHP', 'Codeigniter', 'MariaDB']
+      techStacks: ['Angular', 'HTML5', 'Less']
     },
     {
       image: '/images/casino-guide.png',
