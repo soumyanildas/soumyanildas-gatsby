@@ -6,9 +6,9 @@ const NotFoundPage: React.FC<PageProps> = () => {
   return (
     <main className="h-screen">
       <Header >
-        <ul className="flex justify-between items-center">
+        {/* <ul className="flex justify-between items-center">
           <li className="mr-4 hover:text-cyan-700"><a href="/downloads/Resume-Soumyanil-Das.pdf" download>Resume</a></li>
-        </ul>
+        </ul> */}
       </Header>
       <div className="container mx-auto h-3/4 flex flex-col justify-center items-center px-4 xl:px-0">
         <div className="text-8xl fill-cyan-700">
