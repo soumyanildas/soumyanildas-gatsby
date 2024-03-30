@@ -6,18 +6,18 @@ const Portfolio = () => {
 
   const portfolios: IPortfolioCard[] = [
     {
+      image: '/images/netskope.svg',
+      imageWidth: 180,
+      title: 'Netskope',
+      techStacks: ['Angular', 'HTML5', 'Less']
+    },
+    {
       image: '/images/sraps.png',
       imageWidth: 100,
       title: 'SRAPS',
       website: 'sraps.ch',
       websiteLink: 'https://sraps.ch',
       techStacks: ['Angular', 'HTML5', 'SCSS', 'Firebase', 'NestJS', 'Stripe']
-    },
-    {
-      image: '/images/netskope.svg',
-      imageWidth: 180,
-      title: 'Netskope',
-      techStacks: ['Angular', 'HTML5', 'Less']
     },
     {
       image: '/images/casino-guide.png',
