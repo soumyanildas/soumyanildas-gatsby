@@ -16,9 +16,16 @@ const Experience = () => {
 
   const experiences: IExperience[] = [
     {
+      title: 'Technical Lead - Frontend',
+      companyName: 'CBNITS',
+      startYear: 'Jun 2024',
+      description: 'I led a team of 8 UI professionals, fostering collaboration and driving excellence in digital design and development. I played a key role in establishing the architecture for micro frontends using Nx, Rspack, and Module Federation, which enhanced scalability and agility.'
+    },
+    {
       title: 'SME - Frontend',
       companyName: 'CBNITS',
       startYear: 'Aug 2022',
+      endYear: 'Jun 2024',
       description: 'At Netskope, I led development, maintenance, and collaboration on the Homepage, Reports, and Netskope Advanced Analytics. I introduced features, conducted tests, and provided feedback.'
     },
     {
