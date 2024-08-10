@@ -25,7 +25,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="contact selection:bg-cyan-700 selection:text-white">
+    <section className="contact">
       <div id="contact-us" className="container mx-auto px-4 pt-20 pb-48 xl:pt-28 xl:px-0">
         <div className="text-center mb-10">
           <h3 className="text-3xl tracking-tight font-bold mb-4">Get In Touch</h3>

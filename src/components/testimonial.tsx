@@ -51,7 +51,7 @@ const Testimonial = () => {
   ]
 
   return (
-    <section className="testimonial selection:bg-cyan-700 selection:text-white">
+    <section className="testimonial">
       <div className="container mx-auto px-4 py-24 lg:px-0">
         <div className="text-center mb-10">
           <h3 className="text-3xl tracking-tight font-bold mb-4">Testimonials</h3>

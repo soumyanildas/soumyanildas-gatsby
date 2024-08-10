@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-cyan-700">
       <div className="container mx-auto px-4 py-20 relative xl:py-28 xl:px-0">
-        <div className="absolute rounded bg-gray-400 p-10 -top-16 left-10 right-10 drop-shadow-xl border border-gray-400 selection:bg-cyan-700 selection:text-white lg:p-14 xl:left-0 xl:right-0">
+        <div className="absolute rounded bg-gray-400 p-10 -top-16 left-10 right-10 drop-shadow-xl border border-gray-400  lg:p-14 xl:left-0 xl:right-0">
           <div className="flex flex-col justify-between items-center xl:flex-row xl:justify-between xl:items-center">
             <div className="text-white text-3xl text-center font-bold tracking-tight xl:text-left">
               Start a project
