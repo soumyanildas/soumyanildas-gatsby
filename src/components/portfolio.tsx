@@ -12,14 +12,6 @@ const Portfolio = () => {
       techStacks: ['Angular', 'HTML5', 'Less']
     },
     {
-      image: '/images/sraps.png',
-      imageWidth: 100,
-      title: 'SRAPS',
-      website: 'sraps.ch',
-      websiteLink: 'https://sraps.ch',
-      techStacks: ['Angular', 'HTML5', 'SCSS', 'Firebase', 'NestJS', 'Stripe']
-    },
-    {
       image: '/images/casino-guide.png',
       imageWidth: 120,
       title: 'Casino Guide',
