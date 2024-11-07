@@ -45,7 +45,7 @@ const About = () => {
           <h3 className="text-3xl tracking-tight font-bold">About Me</h3>
         </div>
         <div className="col-span-12 xl:col-span-6">
-          <p className="tracking-tight leading-relaxed text-lg">I'm <span className="text-cyan-700 font-semibold">Soumyanil Das</span>, a Calcutta based Frontend Developer who combines code with creative, interactive, and modern designs. As a freelancer, I work across the full JavaScript stack, delivering comprehensive solutions. I am also a Technical Lead - Frontend <span className="text-cyan-700 font-semibold"><a rel="nofollow" href="https://www.cbnits.com/" target="_blank">@CBNITS</a></span>. In my free time, you can catch me gaming on the PS4 or relaxing to music on Spotify.</p>
+          <p className="tracking-tight leading-relaxed text-lg">I'm <span className="text-cyan-700 font-semibold">Soumyanil Das</span>, a Calcutta based Frontend Developer who combines code with creative, interactive, and modern designs. As a freelancer, I work across the full JavaScript stack, delivering comprehensive solutions. I am also a Technical Lead - Frontend <span className="text-cyan-700 font-semibold"><a rel="nofollow" href="https://www.swiftsecurity.ai/" target="_blank">@Swift Security</a></span>. In my free time, you can catch me gaming on the PS4 or relaxing to music on Spotify.</p>
         </div>
         <div className="col-span-12 mt-20 flex flex-wrap justify-center items-center xl:col-span-6 xl:mt-0 xl:flex-nowrap xl:justify-between">
           {technologies.map((technology, index) => (
