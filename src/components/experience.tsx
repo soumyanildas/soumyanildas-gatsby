@@ -19,7 +19,7 @@ const Experience = () => {
       title: 'Technical Lead - Frontend',
       companyName: 'Swift Security',
       startYear: 'Oct 2024',
-      description: 'I led a team of 8 UI professionals, fostering collaboration and driving excellence in digital design and development. I played a key role in establishing the architecture for micro frontends using Nx, Rspack, and Module Federation, which enhanced scalability and agility.'
+      description: 'Founding Frontend Engineer who was pivotal in setting up the microfrontend architecture using Nx, Rspack, Module Federation 2.0, and React.'
     },
     {
       title: 'Technical Lead - Frontend',
