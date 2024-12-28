@@ -16,7 +16,7 @@ const Experience = () => {
 
   const experiences: IExperience[] = [
     {
-      title: 'Technical Lead - Frontend',
+      title: 'Frontend Architect',
       companyName: 'Swift Security',
       startYear: 'Oct 2024',
       description: 'Founding Frontend Engineer who was pivotal in setting up the microfrontend architecture using Nx, Rspack, Module Federation 2.0, and React.'
