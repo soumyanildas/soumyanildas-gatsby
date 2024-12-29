@@ -29,8 +29,8 @@ const About = () => {
       title: 'Firebase'
     },
     {
-      image: '/images/icons/vuejs.svg',
-      title: 'VueJS'
+      image: '/images/icons/react.svg',
+      title: 'React'
     },
     {
       image: '/images/icons/tailwind.svg',
