@@ -66,17 +66,18 @@ const Experience = () => {
             <h3 className="text-white text-3xl tracking-tight font-bold mb-4">Experience</h3>
             <p className="text-white tracking-tight leading-relaxed mb-10">Here are some of my experiences over the last {currentExperience} years.</p>
           </div>
-          <ol className="mt-16 border-l border-white">
 
+          {/* Mobile Timeline */}
+          <ol className="mt-16 border-l border-white lg:hidden md:flex md:justify-center md:gap-6 md:border-l-0 md:border-t">
             {experiences.map((experience: IExperience, index: number) => (
-              <li key={`${id}-${index}`} >
-                <div className="flex-start flex items-center pt-2">
-                  <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-white"></div>
+              <li key={`${id}-mobile-${index}`}>
+                <div className="flex-start flex items-center pt-2 md:block md:pt-0">
+                  <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-white md:-mt-[5px] md:ml-0 md:mr-0"></div>
                   <p className="mt-2 text-sm text-white tracking-tight">
                     {experience.companyName}
                   </p>
                 </div>
-                <div className="ml-4 mt-2 pb-5">
+                <div className="ml-4 mt-2 pb-5 md:ml-0 lg:pb-0">
                   <h4 className="mb-1.5 text-xl font-bold text-white tracking-tight">{experience.title}</h4>
                   <div className="mb-1 text-sm font-light text-white tracking-tight">{experience.startYear} - {experience.endYear ? experience.endYear : 'now'}</div>
                   <p className="mb-3 text-white tracking-tight">{experience.description}</p>
@@ -84,6 +85,28 @@ const Experience = () => {
               </li>
             ))}
           </ol>
+
+          {/* Desktop Alternating Timeline */}
+          <div className="hidden lg:block relative">
+            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-px bg-white"></div>
+            <div className="space-y-12">
+              {experiences.map((experience: IExperience, index: number) => (
+                <div key={`${id}-desktop-${index}`} className={`flex items-center ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}>
+                  <div className={`w-5/12 ${index % 2 === 0 ? 'pr-8 text-right' : 'pl-8 text-left'}`}>
+                    <p className="text-sm text-white tracking-tight">{experience.companyName}</p>
+                    <h4 className="mb-1.5 text-xl font-bold text-white tracking-tight">{experience.title}</h4>
+                    <div className="mb-1 text-sm font-light text-white tracking-tight">
+                      {experience.startYear} - {experience.endYear ? experience.endYear : 'now'}
+                    </div>
+                    <p className="text-white tracking-tight">{experience.description}</p>
+                  </div>
+                  <div className="absolute left-1/2 transform -translate-x-1/2">
+                    <div className="h-4 w-4 rounded-full bg-white"></div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>
