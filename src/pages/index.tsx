@@ -14,7 +14,8 @@ const Home: React.FC<PageProps> = () => {
   return (
     <main className="h-screen">
       <Header >
-        <ul className="flex justify-between items-center">
+        <ul className="flex gap-x-1 items-center">
+          <li className="mr-4 hover:text-cyan-700"><a href="https://topmate.io/soumyanil_das" target="_blank">Book an Appointment</a></li>
           <li className="mr-4 hover:text-cyan-700"><a href="https://blog.soumyanildas.com" target="_blank">Blog</a></li>
           <li><button onClick={() => scrollTo('#contact-us')} className="rounded-full border-2 border-cyan-700 py-2 px-6 text-cyan-700 transition-colors duration-300 ease-in-out hover:bg-cyan-700 hover:text-white">Say Hello</button></li>
         </ul>
