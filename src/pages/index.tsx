@@ -9,6 +9,7 @@ import Contact from '../components/contact';
 import Footer from '../components/footer';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 import Testimonial from '../components/testimonial';
+import { Analytics } from "@vercel/analytics/react"
 
 const Home: React.FC<PageProps> = () => {
   return (
@@ -27,6 +28,7 @@ const Home: React.FC<PageProps> = () => {
       <Testimonial />
       <Contact />
       <Footer />
+      <Analytics />
     </main>
   )
 }
