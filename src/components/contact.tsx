@@ -27,8 +27,10 @@ const Contact = () => {
   return (
     <section className="contact">
       <div id="contact-us" className="container mx-auto px-4 pt-20 pb-48 xl:pt-28 xl:px-0">
-        <div className="text-center mb-10">
-          <h3 className="text-3xl tracking-tight font-bold mb-4">Get In Touch</h3>
+        <div className="text-center mb-14 flex flex-col gap-y-2">
+          <h3 className="text-3xl tracking-tight font-bold">Get In Touch</h3>
+          <h3 className="text-lm font-normal">or</h3>
+          <h3 className="text-3xll font-normal text-cyan-700"><a href="https://topmate.io/soumyanil_das" target="_blank">Book an Appointment</a></h3>
         </div>
         <form onSubmit={handleFormSubmit}>
           <div className="flex flex-col  mx-auto lg:w-[50rem]">
