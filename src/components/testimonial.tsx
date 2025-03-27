@@ -55,6 +55,7 @@ const Testimonial = () => {
       <div className="container mx-auto px-4 py-24 lg:px-0">
         <div className="text-center mb-10">
           <h3 className="text-3xl tracking-tight font-bold mb-4">Testimonials</h3>
+          <hr className="border-[2px] rounded-md border-cyan-700 w-20 mx-auto mt-2" />
         </div>
         <Swiper
           modules={[Autoplay]}

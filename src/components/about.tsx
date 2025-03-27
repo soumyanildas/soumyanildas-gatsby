@@ -43,6 +43,7 @@ const About = () => {
       <div className="container mx-auto px-4 py-20 lg:grid-cols-12 lg:gap-x-12 xl:py-40 grid xl:px-0 ">
         <div className="col-span-12 text-center mb-10">
           <h3 className="text-3xl tracking-tight font-bold">About Me</h3>
+          <hr className="border-[2px] rounded-md border-cyan-700 w-20 mx-auto mt-2" />
         </div>
         <div className="col-span-12 xl:col-span-6">
           <p className="tracking-tight leading-relaxed text-lg">I'm <span className="text-cyan-700 font-semibold">Soumyanil Das</span>, a Calcutta based Frontend Developer who combines code with creative, interactive, and modern designs. As a freelancer, I work across the full JavaScript stack, delivering comprehensive solutions. I am also a Frontend Architect <span className="text-cyan-700 font-semibold"><a rel="nofollow" href="https://www.swiftsecurity.ai/" target="_blank">@Swift Security</a></span>. In my free time, you can catch me gaming on the PS4 or relaxing to music on Spotify.</p>

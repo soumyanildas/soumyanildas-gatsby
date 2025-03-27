@@ -70,6 +70,7 @@ const Experience = () => {
         <div className="container mx-auto px-4 py-20 xl:py-28 xl:px-0">
           <div className="text-center mb-10">
             <h3 className="text-white text-3xl tracking-tight font-bold mb-4">Experience</h3>
+            <hr className="border-[2px] rounded-md border-white w-20 mx-auto mt-2 mb-4" />
             <p className="text-white tracking-tight leading-relaxed mb-10">Here are some of my experiences over the last {currentExperience} years.</p>
           </div>
 

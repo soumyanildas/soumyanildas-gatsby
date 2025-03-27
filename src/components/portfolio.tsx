@@ -52,6 +52,7 @@ const Portfolio = () => {
       <div className="container mx-auto px-4 pt-20 xl:py-28 xl:px-0">
         <div className="text-center mb-10">
           <h3 className="text-3xl tracking-tight font-bold mb-4">Portfolio</h3>
+          <hr className="border-[2px] rounded-md border-cyan-700 w-20 mx-auto mt-2 mb-4" />
           <p className="tracking-tight leading-relaxed">Here are a few past projects I've worked on. Want to see more? <a className="text-cyan-700" href="mailto:info@soumyanildas.com">Email me</a>.</p>
         </div>
         <div className="grid gap-12 lg:grid-cols-12">
