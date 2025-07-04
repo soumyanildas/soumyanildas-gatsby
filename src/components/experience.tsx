@@ -16,11 +16,20 @@ const Experience = () => {
 
   const experiences: IExperience[] = [
     {
-      title: 'Frontend Architect',
+      title: 'Senior Software Engineer',
+      companyName: 'Concentric AI',
+      companyLogo: '/images/concentric-ai-logo.jpg',
+      startYear: 'Jun 2024',
+      description: 'Integrating Swift Security platform with Concentric AI',
+      width: 'w-[120px]'
+    },
+    {
+      title: 'Frontend Architect / Founding Engineer',
       companyName: 'Swift Security',
       companyLogo: '/images/swift-security-logo.jpg',
       startYear: 'Oct 2024',
-      description: 'Founding Frontend Engineer who was pivotal in setting up the microfrontend architecture using Nx, Rspack, Module Federation 2.0, and React.'
+      endYear: 'Jun 2025',
+      description: 'Founding Engineer who was pivotal in setting up the microfrontend architecture using Nx, Rspack, Module Federation 2.0, and React.'
     },
     {
       title: 'Technical Lead - Frontend',
@@ -81,7 +90,7 @@ const Experience = () => {
                 <div className="flex-start flex items-center pt-2 md:block md:pt-0">
                   <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-white md:-mt-[5px] md:ml-0 md:mr-0"></div>
                   <div className="flex items-center gap-x-1">
-                    <img className="w-[50px]" src={experience.companyLogo} alt={experience.companyName} />
+                    <img className={experience.width ?? `w-[50px]`} src={experience.companyLogo} alt={experience.companyName} />
                     <p className="mt-2 text-sm text-white tracking-tight">
                       {experience.companyName}
                     </p>
@@ -104,8 +113,8 @@ const Experience = () => {
                 <div key={`${id}-desktop-${index}`} className={`flex items-center ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}>
                   <div className={`w-5/12 ${index % 2 === 0 ? 'pr-8 text-right' : 'pl-8 text-left'}`}>
                     <div className={`flex ${index % 2 === 0 ? 'justify-end' : 'justify-start'} items-center gap-x-1`}>
-                      <img className="w-[50px]" src={experience.companyLogo} alt={experience.companyName} />
-                      <p className="mt-2 text-sm text-white tracking-tight">
+                      <img className={experience.width ?? `w-[50px]`} src={experience.companyLogo} alt={experience.companyName} />
+                      <p className="text-sm text-white tracking-tight">
                         {experience.companyName}
                       </p>
                     </div>
@@ -137,4 +146,5 @@ interface IExperience {
   startYear: string;
   endYear?: string;
   description: string;
+  width?: string;
 }

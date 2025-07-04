@@ -51,7 +51,7 @@ const Contact = () => {
               <textarea required className="w-full outline-none border border-gray-200 text-cyan-700 h-60 p-4 rounded mt-2 text-lg" name="message" aria-label="message" />
               <ValidationError className="mt-1 text-sm font-light text-rose-600" field="message" prefix="Message" errors={state.errors} />
             </div>
-            <button disabled={state.submitting} type="submit" className="w-1/2 mx-auto mt-10 rounded-full border-2 border-cyan-700 py-3 px-16 text-cyan-700 transition-colors duration-300 ease-in-out lg:w-1/4 hover:bg-cyan-700 hover:text-white">
+            <button disabled={state.submitting} type="submit" className="w-1/2 mx-auto mt-10 rounded-full border-2 border-cyan-700 p-2 text-cyan-700 transition-colors duration-300 ease-in-out lg:w-1/4 hover:bg-cyan-700 hover:text-white">
               Send
             </button>
           </div>

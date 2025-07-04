@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-cyan-700">
       <div className="container mx-auto px-4 py-20 relative xl:py-28 xl:px-0">
-        <div className="absolute rounded bg-gray-400 p-10 -top-16 left-10 right-10 drop-shadow-xl border border-gray-400  lg:p-14 xl:left-0 xl:right-0">
+        <div className="absolute rounded bg-teal-700 p-10 -top-16 left-10 right-10 drop-shadow-xl border border-teal-700  lg:p-14 xl:left-0 xl:right-0">
           <div className="flex flex-col justify-between items-center xl:flex-row xl:justify-between xl:items-center">
             <div className="text-white text-3xl text-center font-bold tracking-tight xl:text-left">
               Start a project
@@ -13,7 +13,7 @@ const Footer = () => {
               Interested in working together? We should queue up a time to chat.
             </div>
             <div className="mt-10 xl:mt-0">
-              <a className="border-2 border-cyan-700 text-cyan-700 text-xl mt-10 py-3 px-16 rounded-full tracking-tight transition-colors duration-300 ease-in-out lg:mt-0 hover:bg-cyan-700 hover:text-white" href="https://calendly.com/soumyanildas/30min" rel="nofollow" target="_blank">Let's talk</a>
+              <a className="border-2 border-white text-white text-xl mt-10 py-2 px-10 rounded-full tracking-tight transition-colors duration-300 ease-in-out lg:mt-0 hover:bg-white hover:text-teal-700" href="https://calendly.com/soumyanildas/30min" rel="nofollow" target="_blank">Let's talk</a>
             </div>
           </div>
         </div>
