@@ -20,7 +20,7 @@ const Experience = () => {
       companyName: 'Concentric AI',
       companyLogo: '/images/concentric-ai-logo.jpg',
       startYear: 'Jun 2024',
-      description: 'Integrating Swift Security platform with Concentric AI',
+      description: 'Spearheading the integration of the Swift product into Concentric AI, enhancing user experience and scalability',
       width: 'w-[120px]'
     },
     {
