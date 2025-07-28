@@ -19,7 +19,7 @@ const Experience = () => {
       title: 'Senior Software Engineer',
       companyName: 'Concentric AI',
       companyLogo: '/images/concentric-ai-logo.jpg',
-      startYear: 'Jun 2024',
+      startYear: 'Jun 2025',
       description: 'Spearheading the integration of the Swift product into Concentric AI, enhancing user experience and scalability',
       width: 'w-[120px]'
     },
@@ -28,7 +28,7 @@ const Experience = () => {
       companyName: 'Swift Security',
       companyLogo: '/images/swift-security-logo.jpg',
       startYear: 'Oct 2024',
-      endYear: 'Jun 2025',
+      endYear: 'May 2025',
       description: 'Founding Engineer who was pivotal in setting up the microfrontend architecture using Nx, Rspack, Module Federation 2.0, and React.'
     },
     {
